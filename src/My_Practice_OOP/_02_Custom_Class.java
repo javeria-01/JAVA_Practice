@@ -1,7 +1,7 @@
 package My_Practice_OOP;
 
 class Student{
-    int id;
+     int id;
      String name;
      String gender;
     public void detail(){
