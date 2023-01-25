@@ -1,5 +1,4 @@
 package My_Practice_PF;
-
 import java.util.Scanner;
 
 public class factorial {
