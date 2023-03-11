@@ -14,7 +14,7 @@ class MyEmploye{
         return id;
     }
     public void setId(int i){
-        this.id = i;
+        this.id =i;
     }
 }
 public class _03_Getter_Setter {
