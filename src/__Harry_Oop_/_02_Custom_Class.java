@@ -1,4 +1,4 @@
-package My_Practice_OOP;
+package __Harry_Oop_;
 
 class Student{
      int id;
@@ -9,8 +9,6 @@ class Student{
         System.out.println("My name is "+name);
         System.out.println("My gender is "+gender);
     }
-}
-public class _02_Custom_Class {
     public static void main(String[] args) {
         Student s1 = new Student();
         //Setting Attributes:

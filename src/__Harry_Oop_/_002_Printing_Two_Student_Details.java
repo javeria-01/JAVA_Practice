@@ -1,4 +1,4 @@
-package My_Practice_OOP;
+package __Harry_Oop_;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ class students{
     String name;
     String gender;
 }
-public class _03_Printing_Two_Student_Details {
+public class _002_Printing_Two_Student_Details {
     public static void main(String[] args) {
         System.out.println("Enter 1st student detail: ");
         students s1 = new students();

@@ -1,4 +1,4 @@
-package My_Practice_OOP;
+package __Harry_Oop_;
 
 public class _01_Oop_Termenologies {
     public static void main(String[] args) {

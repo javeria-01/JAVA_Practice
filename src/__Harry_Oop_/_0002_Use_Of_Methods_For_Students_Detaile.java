@@ -1,9 +1,10 @@
-package My_Practice_OOP;
+package __Harry_Oop_;
 
 class Students{
     int id;
     String name;
 public void show_record(){
+
     System.out.println(id + " " + name);
     }
 public void insert_record(int rec_id, String rec_name){
@@ -11,7 +12,7 @@ public void insert_record(int rec_id, String rec_name){
   name = rec_name;
    }
 }
-public class _04_Use_Of_Methods_For_Students_Detaile {
+public class _0002_Use_Of_Methods_For_Students_Detaile {
     public static void main(String[] args) {
         Students s1 = new Students();
         Students s2 = new Students();
