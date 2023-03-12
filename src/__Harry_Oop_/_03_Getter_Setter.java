@@ -8,6 +8,7 @@ class MyEmploye{
         return name;
     }
     public void setName(String n){
+
         this.name = n;
     }
     public int getId(){
