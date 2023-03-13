@@ -3,36 +3,29 @@ package __Harry_Oop_;
 import java.util.Random;
 import java.util.Scanner;
 
-class Game{
-    private int num;
-    private int rand;
-    public Game(){
-        Random rand  = new Random(100);
-    }
-    public int takeUserInput(){
+class _5_Guessing_numbers_Games {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter your number plz ");
-        num = s.nextInt();
-        return takeUserInput();
-    }
-    public int isCorrectNumber(){
-        if(num == rand){
-            System.out.println("Congrats! you won");
+        System.out.println("Welcome to Guessing Number Game! ");
+        System.out.println("DO You Want to Play ");
+        String play = s.next();
+        if (play.contains("yes")) {
+            System.out.println("Welcome");
+        } else {
+            System.out.println("Ok Fine");
         }
-        if(num > rand){
-            System.out.println("Sorry your guessed is greater then original number  ");
+        Random rand = new Random(1);
+        System.out.println("Choose your Number plz ");
+        int guess = s.nextInt();
+        if(rand.equals(guess)){
+            System.out.println("You Won");
         }
         else{
-            System.out.println("Sorry your guessed number is lower then original  ");
+            System.out.println("You Lose");
         }
-        return isCorrectNumber();
-    }
-
-
-    public static void main(String[] args) {
-        Game g = new Game();
-        g.takeUserInput();
-        g.isCorrectNumber();
-
     }
 }
+
+
+
+
